@@ -14,7 +14,22 @@
  *= require_self
  */
 
+ .noRightPad
+ {
+    padding-right: 0 !important;
+ }
+
+ .noLeftPad
+ {
+    padding-left: 0 !important;
+ }
+
  .form-group
 {
     margin-bottom:10px;
+}
+
+.search-area
+{
+    padding-top:50px;
 }
