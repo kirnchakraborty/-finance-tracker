@@ -21,5 +21,6 @@ module FinanceTracker
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    Mime::Type.register "application/javascript", :js
   end
 end

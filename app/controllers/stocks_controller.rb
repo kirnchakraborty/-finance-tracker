@@ -1,5 +1,6 @@
 class StocksController < ApplicationController
-
+    respond_to :js
+    
     def search
         if params[:stock].present?
             @stock = Stock.new_lookup(params[:stock])
